@@ -3,7 +3,7 @@ GLOBAL
 \* - - - - - - - - - - - - - - - - - - - - */
 
 html {
-  
+  height: 100%;
 }
 
 body {
@@ -11,6 +11,7 @@ body {
   color: rgba(0,0,0,0.8);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 62.5%;
+  height: 100%;
 }
 
 h1 {

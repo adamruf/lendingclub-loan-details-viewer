@@ -1,11 +1,15 @@
 /* - - - - - - - - - - - - - - - - - - - - *\
 GLOBAL
 \* - - - - - - - - - - - - - - - - - - - - */
+html {
+  height: 100%; }
+
 body {
   background-color: #f0f3f3;
   color: rgba(0, 0, 0, 0.8);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  height: 100%; }
 
 h1 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
