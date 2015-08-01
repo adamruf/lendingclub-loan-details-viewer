@@ -1,0 +1,105 @@
+/* - - - - - - - - - - - - - - - - - - - - *\
+GLOBAL
+\* - - - - - - - - - - - - - - - - - - - - */
+body {
+  background-color: #f0f3f3;
+  color: rgba(0, 0, 0, 0.8);
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 62.5%; }
+
+h1 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 5rem;
+  font-weight: 200; }
+
+p,
+li {
+  font-size: 1.6rem; }
+
+a {
+  color: #4752e7; }
+  a:hover {
+    color: #4752e7;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(71, 82, 231, 0.25); }
+
+input {
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 0.25em;
+  color: #1abc9c;
+  font-weight: 600;
+  vertical-align: middle;
+  width: 100%; }
+  input[type="text"] {
+    padding-left: 1rem; }
+    input[type="text"]:focus {
+      box-shadow: 0 0 10px #1abc9c;
+      outline: none; }
+
+::-webkit-input-placeholder {
+  color: rgba(0, 0, 0, 0.33);
+  font-weight: 200; }
+
+::-moz-placeholder {
+  /* Firefox 19+ */
+  color: rgba(0, 0, 0, 0.33);
+  font-weight: 200; }
+
+:-ms-input-placeholder {
+  color: rgba(0, 0, 0, 0.33);
+  font-weight: 200; }
+
+.btn-primary {
+  background-color: #4752e7;
+  box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25);
+  font-weight: 300;
+  letter-spacing: 0.025em;
+  transition: 0.2s ease-in-out;
+  width: 100%; }
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus {
+    background-color: #3e4ae6;
+    outline: none;
+    transition: 0.2s ease-in-out; }
+  .btn-primary:active, .btn-primary:active:hover, .btn-primary:active:focus {
+    background-color: #3e4ae6;
+    box-shadow: none;
+    margin-top: 0.55em;
+    outline: none; }
+  .btn-primary[disabled], .btn-primary[disabled]:hover {
+    background-color: #4752e7;
+    box-shadow: none; }
+
+footer {
+  bottom: 1rem;
+  position: fixed;
+  text-align: center;
+  width: 100%; }
+
+/* - - - - - - - - - - - - - - - - - - - - *\
+HELPERS
+\* - - - - - - - - - - - - - - - - - - - - */
+.size-lg {
+  font-size: 2rem;
+  padding: 0.75rem 1.75rem; }
+
+.size-xl {
+  font-size: 3rem;
+  padding: 1rem 2.5rem; }
+
+.headroom-xs {
+  margin-top: 1rem; }
+
+.headroom-md {
+  margin-top: 3rem; }
+
+.headroom-lg {
+  margin-top: 5rem; }
+
+.headroom-xl {
+  margin-top: 7rem; }
+
+.legroom-md {
+  margin-bottom: 3rem; }
+
+.divider {
+  color: rgba(0, 0, 0, 0.25); }
