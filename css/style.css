@@ -5,7 +5,7 @@ html {
   height: 100%; }
 
 body {
-  background-color: #f0f3f3;
+  background-color: #f1f1f1;
   color: rgba(0, 0, 0, 0.8);
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 62.5%;
@@ -14,11 +14,11 @@ body {
 h1 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 5rem;
-  font-weight: 200; }
+  font-weight: 200;
+  margin-top: 10rem; }
 
-p,
-li {
-  font-size: 1.6rem; }
+p {
+  font-size: 1.8rem; }
 
 a {
   color: #4752e7; }
@@ -29,7 +29,7 @@ a {
 
 input {
   border: 1px solid rgba(0, 0, 0, 0.25);
-  border-radius: 0.25em;
+  border-radius: 0.5rem;
   color: #1abc9c;
   font-weight: 600;
   vertical-align: middle;
@@ -53,6 +53,9 @@ input {
   color: rgba(0, 0, 0, 0.33);
   font-weight: 200; }
 
+.btn {
+  border-radius: 0.75rem; }
+
 .btn-primary {
   background-color: #4752e7;
   box-shadow: 0 3px 0 rgba(0, 0, 0, 0.25);
@@ -74,36 +77,41 @@ input {
     box-shadow: none; }
 
 footer {
-  bottom: 1rem;
+  bottom: 2rem;
+  font-size: 1.4rem;
   position: fixed;
   text-align: center;
   width: 100%; }
+  @media (max-height: 445px) {
+    footer {
+      position: relative;
+      bottom: 0; } }
 
 /* - - - - - - - - - - - - - - - - - - - - *\
 HELPERS
 \* - - - - - - - - - - - - - - - - - - - - */
 .size-lg {
   font-size: 2rem;
-  padding: 0.75rem 1.75rem; }
+  padding: 1rem; }
 
 .size-xl {
   font-size: 3rem;
-  padding: 1rem 2.5rem; }
+  padding: 1.25rem; }
 
 .headroom-xs {
   margin-top: 1rem; }
 
-.headroom-md {
-  margin-top: 3rem; }
-
-.headroom-lg {
-  margin-top: 5rem; }
-
-.headroom-xl {
-  margin-top: 7rem; }
+.headroom-sm {
+  margin-top: 2rem; }
 
 .legroom-md {
   margin-bottom: 3rem; }
 
 .muted-text {
   color: rgba(0, 0, 0, 0.33); }
+  .muted-text a {
+    color: rgba(71, 82, 231, 0.44); }
+    .muted-text a:hover {
+      color: rgba(71, 82, 231, 0.67);
+      text-decoration: none;
+      border-bottom: 1px solid rgba(71, 82, 231, 0.25); }
