@@ -1,6 +1,6 @@
 # LendingClub Loan Details Viewer
 The easiest way to view loan details for an invested note.
-http://bit.ly/1KJ6x97
+http://bit.ly/1ID1ZS2
 
 ## Desired Outcomes
 - I want to increase my annual returns.
@@ -14,7 +14,7 @@ A simple form that accepts a LendingClub loan ID and launches the loan details p
 
 ## Usage
 1. Copy any LendingClub loan ID
-2. Go to http://bit.ly/1KJ6x97
+2. Go to http://bit.ly/1ID1ZS2
 3. Paste the loan ID into the text input field
 4. Hit 'Enter' or click the 'View loan details' button
 5. The official LendingClub loan details page will open in a new browser tab
